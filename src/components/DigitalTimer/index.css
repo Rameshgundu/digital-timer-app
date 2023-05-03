@@ -1,0 +1,118 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  height: 90vh;
+  width: 50%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 50vh;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-display-container {
+  background-color: white;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.timer {
+  color: #00d9f5;
+  font-size: 29px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.timer-status {
+  font-weight: bold;
+  color: #1e293b;
+}
+.play-button {
+  border: none;
+  background-color: transparent;
+}
+.play-img {
+  height: 23px;
+  margin-right: 5px;
+}
+
+.play-reset-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.play-container {
+  display: flex;
+  margin-right: 20px;
+}
+.reset-container {
+  display: flex;
+}
+.start-text {
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: bold;
+}
+.set-timer-text {
+  text-align: center;
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 13px;
+}
+.set-timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.increase-btn {
+  font-size: 27px;
+  font-weight: bold;
+  color: #0f172a;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.show-set-time {
+  background-color: #00d9f5;
+  height: 35px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: #0f172a;
+  border-radius: 10px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
